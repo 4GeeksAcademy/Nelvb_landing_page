@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="container mt-4 pt-5"> {/* Ajustado el margen superior */}
+      <div className="container mt-4 pt-5">
         <Jumbotron />
         <div className="row mt-5">
           <div className="col-md-3 mb-4">
