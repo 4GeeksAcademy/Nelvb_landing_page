@@ -8,7 +8,9 @@ const Card = (props) => {
       <div className="card-body d-flex flex-column">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text text-justify">{props.text}</p>
-        <a href={props.buttonUrl} className="btn btn-primary mt-auto">{props.buttonLabel}</a>
+        <a href={props.buttonUrl} className="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer">
+          {props.buttonLabel}
+        </a>
       </div>
     </div>
   );

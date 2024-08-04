@@ -3,11 +3,13 @@ import React from 'react';
 const Jumbotron = () => {
   return (
     <div className="jumbotron mt-3 mb-5">
-      <h1 className="display-4">A Warm Welcome!</h1>
+      <h1 className="display-4">Epic Fantasy Sagas</h1>
       <p className="lead text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.
+        Below are some of the most famous sagas in fantasy literature, each of which has been successfully adapted to the screen.
       </p>
-      <a className="btn btn-primary btn-lg" href="#" role="button">Call to action!</a>
+      <a className="btn btn-primary btn-lg" href="https://www.amazon.com/books-used-books-textbooks/b?ie=UTF8&node=283155" role="button" target="_blank" rel="noopener noreferrer">
+        Buy Now!
+      </a>
     </div>
   );
 };
